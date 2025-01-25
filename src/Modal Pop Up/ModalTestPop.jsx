@@ -11,7 +11,7 @@ const ModalTestPop = () => {
   return (
     <div className='mx-auto w-full p-3 '>
         <div className='flex justify-center'>
-            <button onClick={handleIsClicked} className='px-8 py-3 bg-gray-700 shadow-xl text-white rounded '> Modal Pop Up
+            <button onClick={handleIsClicked} className='px-8 py-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent rounded shadow-xl text-xl font-bold'> Modal Pop Up
 
          
             </button>
