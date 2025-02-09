@@ -20,7 +20,7 @@ const Accordion = () => {
   };
   return (
     <>
-      <div className="w-3/4 h-screen m-auto p-10 bg-gray-100">
+      <div className="w-3/4 min-h-screen m-auto p-10 bg-gray-100">
         <div className="flex justify-center py-5">
           <button
             onClick={handleEnableMultipleSelect}
