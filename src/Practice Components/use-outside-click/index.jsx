@@ -8,7 +8,6 @@ export default function useOutsideClick(ref, handler) {
       }
       handler(event);
     }
-
     document.addEventListener("mousedown", listener);
     document.addEventListener("touchstart", listener);
 
@@ -16,5 +15,5 @@ export default function useOutsideClick(ref, handler) {
       document.removeEventListener("mousedown", listener);
       document.removeEventListener("touchstart", listener);
     };
-  }, [handler, ref]); // Dependency array
+  }, [handler, ref]);
 }
